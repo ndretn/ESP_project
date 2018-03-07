@@ -4,6 +4,15 @@ This repository contains the code of the final project of the Embedded Systems P
 
 The aim of the project was the design and the implementation of an android camera app that captures a scene at different exposures, then blends the captured images into a single HDR picture,
 and finally applies tone mapping to obtain an LDR image for conventional displays.
+If the device do not support the manual change of the exposure, the app only allow to load images from the gallery and then run the HDR and tonemapping algrithms.
+
+Main settings:
+
+* Select the number of images (3, 5 or 7)
+* Select the exposure step (± 1/3, ± 2/3 or ± 1)
+* Select the HDR algorithm (Debevec/Malik or Robertson)
+* Select the tonemapping algorithm (Drago, Durand, Mantiuk or Reinhard)
+* Select if perform the alignment of images with MTB algorithm 
 
 In the repository is not contained the OpenCV for Android SDK. It must be set manually. 
 
