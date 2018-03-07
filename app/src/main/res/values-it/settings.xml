@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_both_camera_does_not_support_hdr">Nessuna fotocamera di questo dispositivo supporta l\'HDR.</string>
+    <string name="pref_both_camera_supports_hdr">La fotocamera posteriore supporta l\'HDR.</string>
+
+    <string name="pref_category_camera_title">Fotocamera</string>
+    <string name="pref_category_hdr">Impostazioni HDR</string>
+
+    <string name="pref_hdr_algorithm_dialog_title">Scegli l\'algoritmo HDR</string>
+    <string name="pref_hdr_algorithm_summary">Scegli l\'algoritmo da applicare per produrre la foto in HDR.</string>
+    <string name="pref_hdr_algorithm_title">Algoritmo HDR</string>
+
+    <string name="pref_hdr_exposure_step_dialog_title">Scegli il passo di esposizione</string>
+    <string name="pref_hdr_exposure_step_summary">Scegli il passo di esposizione con il quale sottoesporre e sovraesporre la foto ottimale.</string>
+    <string name="pref_hdr_exposure_step_title">Passo di esposizione</string>
+
+    <string name="pref_hdr_on_disabled_title">HDR non disponibile</string>
+    <string name="pref_hdr_on_enabled_title">HDR disponibile</string>
+
+    <string name="pref_hdr_save_intermediate_photo_summary_off">Per scattare una foto in HDR verranno scattate più foto a differenti livelli di esposizione. Queste foto verranno cancellate quando la foto in HDR è pronta.</string>
+    <string name="pref_hdr_save_intermediate_photo_summary_on">Per scattare una foto in HDR verranno scattate più foto a differenti livelli di esposizione. Queste foto verranno salvate in memoria assieme alla foto in HDR.</string>
+    <string name="pref_hdr_save_intermediate_photo_title">Salva foto intermedie</string>
+
+    <string name="pref_resolution_back_camera_title">Risoluzione della fotocamera posteriore</string>
+    <string name="pref_resolution_back_camera_dialog_title">Scegli la risoluzione</string>
+    <string name="pref_resolution_back_camera_summary">Qui puoi cambiare la risoluzione delle foto scattate
+    dalla fotocamera posteriore.</string>
+
+    <string name="pref_number_photo_hdr_title">Numero di foto</string>
+    <string name="pref_number_photo_hdr_dialog_title">Scegli il numero di foto</string>
+    <string name="pref_number_photo_hdr_summary">Scegli il numero di foto che verranno scattate per produrre la
+    foto in HDR.</string>
+
+    <string name="pref_hdr_tone_mapping_title">Algoritmo di tone mapping</string>
+    <string name="pref_hdr_tone_mapping_dialog_title">Scegli l\'algoritmo di tone mapping</string>
+    <string name="pref_hdr_tone_mapping_summary">Scegli l\'algoritmo di tone mapping da applicare alla foto
+    in HDR perché sia visibile anche su schermi non HDR.</string>
+
+    <string name="pref_hdr_photo_alignment_title">Allinea foto</string>
+    <string name="pref_hdr_photo_alignment_summary">Se attivo l\'algoritmo cerca di allineare le foto scattate.</string>
+</resources>

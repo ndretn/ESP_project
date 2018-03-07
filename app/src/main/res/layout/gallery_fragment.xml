@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/galleryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:drawablePadding="16dp"
+        android:drawableTop="@mipmap/ic_gallery"
+        android:text="@string/tap_to_select_images"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+    <FrameLayout
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/transparent">
+
+        <ImageButton
+            android:id="@+id/camera"
+            style="@style/ButtonsTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|start"
+            android:layout_marginStart="16dp"
+            android:contentDescription="@string/camera"
+            android:src="@drawable/ic_camera"
+            android:tint="@color/iconOnCameraColor" />
+
+        <ImageButton
+            android:id="@+id/settings"
+            style="@style/ButtonsTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/settings_info"
+            android:src="@drawable/ic_settings"
+            android:tint="@color/iconOnCameraColor" />
+
+    </FrameLayout>
+
+</RelativeLayout>

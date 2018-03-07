@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">HDRESP</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="camera_error_generic">Something went wrong.</string>
+
+    <string name="gallery">Gallery</string>
+    <string name="picture">Picture</string>
+    <string name="camera">Camera</string>
+    <string name="settings_info">Settings</string>
+    <string name="tap_to_select_images">Tap to select images</string>
+
+    <string name="photo_sequence_capture_begin">Photo capture started&#8230;</string>
+    <string name="photo_capture_of_x_photo_completed" tools:ignore="PluralsCandidate">Capture of %d photos terminated!</string>
+    <string name="photo_taken">Photo taken!</string>
+
+    <string name="camera_storage_request_permissions_rationale">This app needs permission to access the
+        camera (to show you the preview and shoot photos) and access to the external memory (to save photos). </string>
+    <string name="storage_request_permission_rationale">This app needs permission to access the external memory
+        in order to save the images.</string>
+    <string name="camera_storage_permissions_not_granted_error">To use the app you need to grant some permissions.
+        \n\nPlease, go to Settings > Apps > HDRESP > Permissions and grant access to the camera and
+        the external memory.</string>
+    <string name="storage_permission_not_granted_error">To use the app you need to grant some permissions.
+        \n\nPlease, go to Settings > Apps > HDRESP > Permissions and grant access to the external memory.</string>
+
+    <string name="menu_info">Info</string>
+    <string name="info_title_text_view">Info</string>
+    <string name="thanks_title_text">Thanks to</string>
+    <string name="info_text_view">This app represents the final project for the class <i>Embedded
+    System Programming</i> held by professor Carlo Fantozzi for the master degree in Computer
+        Engineering at University of Padua in the A.Y. 2016/2017.\nThe project aimed to the development
+        of a base photographic app with support for High Dynamic Range (HDR) photography.\nThe app
+        was developed by Manuele Panozzo, Andrea Tonon and Luca Vallerini.</string>
+    <string name="thanks_text_view">
+        We wish to thank Google due to them making a base sample photographic app from which this
+        project begone its development.\nThe HDR and tone mapping algorithms used in the app are
+        provided by the <a href="https://opencv.org/">OpenCV</a> library.\nThe launcher icon was made with the use of
+        <a href="https://romannurik.github.io/AndroidAssetStudio/index.html">Android Asset Studio</a>
+        by Roman Nurik. The icons used throughout the app were made available by Google in its
+        <a href="https://material.io/">Material Design</a> library.
+    </string>
+
+    <string name="loading">Creating HDR image&#8230;</string>
+    <string name="gallery_chooser_title">Select picture</string>
+    <string name="gallery_no_image_picked">You haven\'t picked image</string>
+    <string name="gallery_generic_error">Something went wrong</string>
+    <string name="gallery_too_few_images">HDR needs you select at least three pics</string>
+    <string name="gallery_too_many_images">You can select at most seven pics</string>
+
+    <string name="path_hdr_image">HDR image saved in %s</string>
+
+    <string name="hdr_error_generic_message_error">Error during HDR elaboration.</string>
+    <string name="hdr_error_prepare_images_error">Error during the preparation of the images: format not valid
+        or exposure time not found.</string>
+    <string name="hdr_error_saving_final_image">Error saving final image: make sure external memory permissions
+    are granted.</string>
+</resources>

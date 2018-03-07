@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="camera_error">Questo dispositivo non supporta le API Camera2.</string>
+    <string name="camera_error_generic">Qualcosa è andato storto.</string>
+
+    <string name="picture">Foto</string>
+    <string name="gallery">Galleria</string>
+    <string name="camera">Fotocamera</string>
+    <string name="settings_info">Impostazioni</string>
+    <string name="tap_to_select_images">Tocca per selezionare le immagini</string>
+
+    <string name="photo_taken">Foto scattata!</string>
+    <string name="photo_sequence_capture_begin">Scatto delle foto in corso&#8230;</string>
+    <string name="photo_capture_of_x_photo_completed">Scatto della sequenza di %d foto terminato!</string>
+
+    <string name="camera_storage_request_permissions_rationale">Questa app ha bisogno delle autorizzazioni per l\'accesso
+        alla fotocamera (per mostrarti un\'anteprima e per scattare le foto) e l\'accesso alla memoria esterna
+        (per salvare le foto).</string>
+    <string name="storage_request_permission_rationale">Questa app ha bisogno delle autorizzazioni per
+        l\'accesso alla memoria esterna per poter salvare le immagini.</string>
+    <string name="camera_storage_permissions_not_granted_error">Per utilizzare l\'applicazione è necessario concedere
+        alcune autorizzazioni.
+        \n\nVai in Impostazioni > App > HDRESP > Autorizzazioni e concedi l\'accesso alla fotocamera e alla
+    memoria esterna.</string>
+    <string name="storage_permission_not_granted_error">Per utilizzare l\'applicazione è necessario concedere
+        alcune autorizzazioni.
+        \n\nVai in Impostazioni > App > HDRESP > Autorizzazioni e concedi l\'accesso alla memoria esterna.</string>
+
+    <string name="menu_info">Informazioni</string>
+    <string name="info_title_text_view">Informazioni</string>
+    <string name="thanks_title_text">Ringraziamenti</string>
+    <string name="info_text_view">Questa app rappresenta il progetto finale per il corso di <i>Programmazione di
+        sistemi embedded</i> tenuto dal professor Carlo Fantozzi per il corso di laurea magistrale in
+        Ingegneria Informatica all\'Università degli Studi di Padova nell\'A.A. 2016/2017.\nIl progetto
+        ha avuto come obiettivo lo sviluppo di un\'applicazione fotografica basilare con il supporto
+        per la fotografia con High Dynamic Range (HDR).\nL\'app è stata sviluppata da Manuele Panozzo,
+        Andrea Tonon e Luca Vallerini.</string>
+    <string name="thanks_text_view">
+        Si ringrazia Google per aver reso disponibile una app fotografica
+        basilare dalla quale questo progetto è partito.\nGli algoritmi per l\'HDR e per il tone mapping
+        sono forniti dalla libreria <a href="https://opencv.org/">OpenCV</a>.\nL\'icona del launcher è stata creata
+        grazie ad <a href="https://romannurik.github.io/AndroidAssetStudio/index.html">Android Asset Studio</a>
+        di Roman Nurik. Le icone usate nell\'app fanno invece parte del catalogo <a href="https://material.io/">
+        Material Design</a> di Google.
+    </string>
+
+    <string name="loading">Creazione immagine HDR in corso&#8230;</string>
+    <string name="gallery_chooser_title">Seleziona immagini</string>
+    <string name="gallery_no_image_picked">Non hai selezionato alcuna immagine</string>
+    <string name="gallery_generic_error">Qualcosa è andato storto</string>
+    <string name="gallery_too_few_images">HDR ha bisogno che siano selezionate almeno tre foto</string>
+    <string name="gallery_too_many_images">Puoi selezionare al massimo sette foto</string>
+
+    <string name="path_hdr_image">L\'immagine HDR è stata salvata in %s</string>
+
+    <string name="hdr_error_generic_message_error">Errore durante l\'elaborazione HDR.</string>
+    <string name="hdr_error_prepare_images_error">Errore durante la preparazione delle immagini: formato non valido
+        o tempo di esposizione non trovato.</string>
+    <string name="hdr_error_saving_final_image">Errore durante il salvataggio dell\'immagine finale:
+        assicurati di aver concesso l\'autorizzazione per l\'accesso alla memoria esterna.</string>
+</resources>

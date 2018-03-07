@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="pref_category_camera_title">Camera</string>
+
+    <string name="pref_resolution_back_camera_title">Resolution of back camera</string>
+    <string name="pref_resolution_back_camera_dialog_title">Choose resolution</string>
+    <string name="pref_resolution_back_camera_summary">Here you can change the resolution
+        of the photos taken by the back camera.</string>
+
+    <string name="pref_category_hdr">HDR settings</string>
+
+    <string name="pref_both_camera_supports_hdr">HDR is supported by the back camera.</string>
+    <string name="pref_both_camera_does_not_support_hdr">HDR is not supported by any camera on this device.</string>
+    <string name="pref_hdr_on_enabled_title">HDR available</string>
+    <string name="pref_hdr_on_disabled_title">HDR not available</string>
+
+    <string name="pref_number_photo_hdr_title">Number of photos</string>
+    <string name="pref_number_photo_hdr_dialog_title">Choose number of photos</string>
+    <string name="pref_number_photo_hdr_summary">Choose the number of photos that will be shot in order to
+    compose an HDR photo.</string>
+    <string name="pref_number_photo_hdr_default" translatable="false">3</string>
+    <string-array name="pref_number_photo_hdr_array_entries" tools:ignore="MissingTranslation">
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="pref_number_photo_hdr_array_values" tools:ignore="MissingTranslation">
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+
+    <string name="pref_hdr_exposure_step_title">Exposure step</string>
+    <string name="pref_hdr_exposure_step_dialog_title">Choose the exposure step</string>
+    <string name="pref_hdr_exposure_step_summary">Choose the exposure step by which underexpose and
+    overexpose the optimal photo.</string>
+    <string name="pref_hdr_exposure_step_default_value" translatable="false">1</string>
+    <string-array name="pref_hdr_exposure_step_array_entries" tools:ignore="MissingTranslation">
+        <item>\u00B1 1</item>
+        <item>\u00B1 \u2153</item>
+        <item>\u00B1 \u2154</item>
+    </string-array>
+    <string-array name="pref_hdr_exposure_step_array_values" tools:ignore="MissingTranslation">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="pref_hdr_algorithm_title">HDR algorithm</string>
+    <string name="pref_hdr_algorithm_dialog_title">Choose the HDR algorithm</string>
+    <string name="pref_hdr_algorithm_summary">Choose the algorithm to apply in order to produce the HDR photo.</string>
+    <string name="pref_hdr_algorithm_default_value" translatable="false">1</string>
+    <string-array name="pref_hdr_algorithm_array_entries" tools:ignore="MissingTranslation">
+        <item>Debevec/Malik</item>
+        <item>Robertson</item>
+    </string-array>
+    <string-array name="pref_hdr_algorithm_array_values" tools:ignore="MissingTranslation">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="pref_hdr_tone_mapping_title">Tone mapping algorithm</string>
+    <string name="pref_hdr_tone_mapping_dialog_title">Choose the tone mapping algorithm</string>
+    <string name="pref_hdr_tone_mapping_summary">Choose the tone mapping algorithm to apply to the HDR
+    photo in order to be visible on non HDR screens.</string>
+    <string name="pref_hdr_tone_mapping_default_value" translatable="false">1</string>
+    <string-array name="pref_hdr_tone_mapping_array_entries" tools:ignore="MissingTranslation">
+        <item>Drago</item>
+        <item>Durand</item>
+        <item>Mantiuk</item>
+        <item>Reinhard</item>
+    </string-array>
+    <string-array name="pref_hdr_tone_mapping_array_values" tools:ignore="MissingTranslation">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="pref_hdr_save_intermediate_photo_title">Save intermediate photo</string>
+    <string name="pref_hdr_save_intermediate_photo_summary_on">In order to shoot an HDR photo, multiple photos at
+        different exposure levels will be shot. These photos will be saved in the storage with the HDR photo.</string>
+    <string name="pref_hdr_save_intermediate_photo_summary_off">In order to shoot an HDR photo, multiple photos at
+        different exposure levels will be shot. These photos will be erased after the HDR photo is ready.</string>
+
+    <string name="pref_hdr_photo_alignment_title">Align photo</string>
+    <string name="pref_hdr_photo_alignment_summary">If enabled the algorithm tries to align the different photo captured.</string>
+
+</resources>
