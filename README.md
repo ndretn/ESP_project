@@ -4,7 +4,7 @@ This repository contains the code of the final project of the Embedded Systems P
 
 The aim of the project was the design and the implementation of an android camera app that captures a scene at different exposures, then blends the captured images into a single HDR picture,
 and finally applies tone mapping to obtain an LDR image for conventional displays.
-If the device do not support the manual change of the exposure, the app only allow to load images from the gallery and then run the HDR and tonemapping algrithms.
+If the device does not support the manual change of the exposure, the app only allows to load images from the gallery and then runs the HDR and tonemapping algrithms.
 
 Main settings:
 
@@ -14,7 +14,7 @@ Main settings:
 * Select the tonemapping algorithm (Drago, Durand, Mantiuk or Reinhard)
 * Select if perform the alignment of images with MTB algorithm 
 
-In the repository is not contained the OpenCV for Android SDK. It must be set manually. 
+In the repository is not contained the OpenCV Android SDK. It must be set manually. 
 
 This project is copyright of Andrea Tonon and it licensed under the BSD 3-Clause license, as also described in the file [license.txt](license.txt).
 
